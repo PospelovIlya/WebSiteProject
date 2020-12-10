@@ -86,16 +86,19 @@
 }
 
 .section_title {
+  display: block;
   font-size: 30px;
   line-height: 36px;
   color: #445161;
+  padding-bottom: 17px;
 }
 
 .section_text {
   font-size: 16px;
   line-height: 24px;
   color: #333333;
-  margin: 17px 0 0 0;
+  padding: 0 0 11px 0;
+  margin: 0 0 0 0;
 }
 
 .about_product_video {
@@ -112,7 +115,7 @@
 .dignity_title {
   display: block;
   text-align: center;
-  padding-bottom: 17px;
+  padding-bottom: 22px;
 }
 
 .dignity_detailsSummary {
@@ -121,9 +124,10 @@
           column-count: 2;
   -webkit-column-gap: 78px;
           column-gap: 78px;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
+}
+
+.dignity_text {
+  padding-bottom: 33px;
 }
 
 .dignity_summary {
@@ -144,9 +148,5 @@ details summary:before {
   position: absolute;
   top: 8px;
   left: -43px;
-}
-
-.details_item {
-  padding-bottom: 33px;
 }
 /*# sourceMappingURL=styles.css.map */
