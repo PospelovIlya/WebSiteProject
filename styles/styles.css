@@ -21,12 +21,132 @@
   color: #fff;
 }
 
+.main_header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.main_header_wrapper {
+  float: left;
+}
+
+.main_header_title {
+  font-size: 60px;
+  font-weight: 400;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
 .main_header_list {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  padding: 0 0 0 25px;
+  margin: 40px 0 0 0;
+}
+
+.main_header_list_item {
   list-style-type: none;
+  position: relative;
+}
+
+.main_header_list_item::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 6px;
+  left: -25px;
+  background-image: url(../img/header_list_vector.svg);
+  background-size: cover;
 }
 
 .main_header_photo {
+  min-height: 100px;
   display: block;
   background-color: #fff;
+  float: right;
+}
+
+.about_product::after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.about_product_wrapper {
+  float: left;
+  width: 50%;
+}
+
+.section_title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+}
+
+.section_text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin: 17px 0 0 0;
+}
+
+.about_product_video {
+  background: #445161;
+  float: right;
+  display: block;
+  min-height: 100px;
+}
+
+.dignity {
+  background: #F5F5F5;
+}
+
+.dignity_title {
+  display: block;
+  text-align: center;
+  padding-bottom: 17px;
+}
+
+.dignity_detailsSummary {
+  display: inline-block;
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 78px;
+          column-gap: 78px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.dignity_summary {
+  position: relative;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary:before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-color: #445161;
+  background-image: url(../img/dignity_plus.svg);
+  background-size: cover;
+  position: absolute;
+  top: 8px;
+  left: -43px;
+}
+
+.details_item {
+  padding-bottom: 33px;
 }
 /*# sourceMappingURL=styles.css.map */
