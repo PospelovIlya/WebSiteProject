@@ -92,20 +92,27 @@
     min-height: 100px;
 }
 .dignity {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     background: #F5F5F5;
 }
 .dignity_title {
-    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
     text-align: center;
-    padding-bottom: 22px;
 }
-.dignity_detailsSummary {
-    display: inline-block;
-    column-count: 2;
-    column-gap: 78px;
+.details_wrapper {
+    width: 50%;
+}
+.details_item {
+    width: 100%;
+    box-sizing: border-box;
 }
 .dignity_text {
     padding-bottom: 33px;
+    width: 90%;
+    padding-left: 40px
 }
 .dignity_summary {
     position: relative;
@@ -123,4 +130,24 @@ details summary:before {
     position: absolute;
     top: 8px;
     left: -43px;
+    margin-left: 40px;
+}
+.screenshots_title {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.figure_block {
+    display: flex;
+    width: 100%;
+}
+.figure_half {
+    display: flex;
+    flex-direction: column;
+}
+.screens_figure {
+    display: flex;
+}
+.add_content_img {
+    background-color: #445161;
 }
