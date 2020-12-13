@@ -23,7 +23,6 @@
 }
 .main_header_wrapper {
     float: left;
-
 }
 .main_header_title {
     font-size: 60px;
@@ -78,12 +77,14 @@
     color: #445161;
     padding-bottom: 17px;
 }
+.about_product_text {
+    padding-bottom: 11px;
+    margin: 0 0 0 0;
+}
 .section_text {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
-    padding: 0 0 11px 0;
-    margin: 0 0 0 0;
 }
 .about_product_video {
     background: #445161;
@@ -132,22 +133,99 @@ details summary:before {
     left: -43px;
     margin-left: 40px;
 }
+.screenshots {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .screenshots_title {
-    width: 100%;
     text-align: center;
-    margin: 0 0 45px 0;
-}
-.figure_block {
-    display: flex;
     width: 100%;
-}
-.figure_half {
-    display: flex;
-    flex-direction: column;
 }
 .screens_figure {
+    width: 575px;
     display: flex;
+    margin: 0 0 28px 0;
+    justify-content: space-between;
+}
+.screens_figure:nth-child(4),
+.screens_figure:nth-child(5){
+    margin: 0px;
+}
+.add_content_description {
+    width: 350px;
+}
+.screens_item_title {
+    margin: 0;
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    color: #445161;
+}
+.screens_item_text {
+    margin: 0;
 }
 .add_content_img {
+    display: block;
+    min-height: 150px;
     background-color: #445161;
+}
+.reviews {
+    background: #F5F5F5;
+}
+.reviews_title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.reviews_block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.reviews_item {
+    width: 48%;
+    display: flex;
+}
+.reviews_img {
+    background: #445161;
+    border-radius: 50%;
+    position: relative;
+}
+.reviews_item:nth-child(1),
+.reviews_item:nth-child(3) {
+    margin-right: 15px;
+}
+.reviews_img:nth-child(2),
+.reviews_img:nth-child(4) {
+    margin-right: 35px;
+    margin-left: 15px;
+}
+.reviews_img::after{
+    content: "";
+    border: 10px solid transparent; 
+    border-top: 10px solid #EBEBEB; 
+    position: absolute; 
+    transform: rotate(90deg);
+    right: -15px;
+    bottom: 5px;
+}
+.reviews_text {
+    background: #EBEBEB;
+    border-bottom: 5px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 0 15px;
+    width: 483px;
+    padding: 16px 10px 0 15px;
+}
+.reviews_item:nth-child(3),
+.reviews_item:nth-child(4){
+    margin-top: 22px;
+}
+.reviews_signature {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    color: #989898;
 }
