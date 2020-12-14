@@ -179,6 +179,7 @@ details summary:before {
 .screenshots_title {
   text-align: center;
   width: 100%;
+  padding-bottom: 45px;
 }
 
 .screens_figure {
@@ -292,5 +293,263 @@ details summary:before {
   font-size: 14px;
   line-height: 18px;
   color: #989898;
+}
+
+.buy_it_now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.buy_title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 26px;
+}
+
+.package_buy {
+  border: 1px solid #000;
+  background: #445161;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+}
+
+.package_title {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 13px 75px 8px 105px;
+}
+
+.price {
+  background: #FFFFFF;
+  border: 2px solid #445162;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 40px;
+  line-height: 30px;
+  color: #445162;
+  padding: 25px 76px 15px 107px;
+}
+
+.package_list {
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 8px 8px 0 45px;
+  margin: 0;
+}
+
+.buy_bt {
+  border: 1px solid #445162;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #445161;
+  background: #FFFFFF;
+  padding: 16px 83px 9px 83px;
+  margin: 16px 19px 19px 19px;
+  border-radius: 10px;
+}
+
+.buy_bt:hover {
+  color: grey;
+  background-color: hotpink;
+}
+
+.buy_bt:active {
+  color: black;
+  background-color: red;
+}
+
+.main_footer {
+  background: #445162;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer_title {
+  width: 100%;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 25px 43px;
+}
+
+.footer_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer_form .form_text {
+  border: 1px solid #445162;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #445162;
+  word-break: break-all;
+  outline: none;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 43px;
+}
+
+.footer_form .form_email {
+  border: 1px solid #445162;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #445162;
+  word-break: break-all;
+  outline: none;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 43px;
+}
+
+.footer_form .form_textarea {
+  border: 1px solid #445162;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #445162;
+  word-break: break-all;
+  outline: none;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.footer_form .form_submit {
+  border: 1px solid #445162;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #445162;
+  text-transform: uppercase;
+  word-break: break-all;
+  outline: none;
+  margin-bottom: 55px;
+  text-align: center;
+  width: 150px;
+  height: 43px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.contacts_wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sub_contacts {
+  margin-left: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sub_contacts_link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.skype::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/skype_icon.svg);
+  background-size: cover;
+  position: absolute;
+  left: -25px;
+}
+
+.icq::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/icq_icon.svg);
+  background-size: cover;
+  position: absolute;
+  left: -25px;
+}
+
+.mail::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/mail_icon.svg);
+  background-size: cover;
+  position: absolute;
+  left: -25px;
+}
+
+.phone::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/phone_icon.svg);
+  background-size: cover;
+  position: absolute;
+  left: -25px;
+}
+
+.social_contacts {
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  margin-left: 50px;
+}
+
+.copy {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #445162;
 }
 /*# sourceMappingURL=styles.css.map */
