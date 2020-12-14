@@ -91,6 +91,9 @@
     float: right;
     display: block;
     min-height: 100px;
+    border: 1px solid #ffff;
+    outline-style: none;
+    object-fit: cover;
 }
 .dignity {
     display: flex;
@@ -358,6 +361,14 @@ details summary:before {
         height: 43px;
         align-self: center;
     }
+}
+.form_submit:hover {
+    color: grey;
+    background-color: hotpink;
+}
+.form_submit:active {
+    color: black;
+    background-color: red;
 }
 .contacts_wrp {
     display: flex;
